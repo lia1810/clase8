@@ -3,14 +3,13 @@
 body {
     font-family: 'Montserrat', sans-serif;
    
-
 }
 .header { background-color: #343a40;
 margin: 0;
 height: 75px;
 color: #ffffff;
-
 }
+
 #menu li {
     padding: 0;
     display: inline-block;
@@ -19,13 +18,13 @@ color: #ffffff;
 .enlaces {
     margin-left: 5%;
     text-align: right;
-    
 }
 
 a {color: #ffffff;
     text-decoration-line: none;
 }
-a:hover { color: yellow }
+a:hover { color: violet; }
+
 h1 {
     display: inline-block;
     margin-right: 500px;
@@ -44,14 +43,13 @@ ul {
  text-align: center;
  color: #ffffff;
    
-
 }
+
 img {
     height: 35%;
     width: auto;
   margin: 10px;
 }
-
 
 .portfolio {
     background-color: #ffffff;
@@ -91,7 +89,6 @@ margin-top: 15px;
 margin-left: 15px;
 padding-left: 10px;
 padding-right: 10px;
-
 
 }
 
