@@ -11,12 +11,16 @@
 
 <body>
     <div class="header">
-        <h1>ADA ONLINE</h1>
-      <p>PORTFOLIO</p>
-      <p>ABOUT</p>
-        <p>CONTACT</p>
-
+       <ul id="menu">
+           <li> <h1>ADA ONLINE</h1></li>
+       
+        <li class="enlaces"> <a href="#portfolio"> PORTFOLIO </a></li>
+      <li class="enlaces"> <a href=" #about"> ABOUT</a></li>
+        <li class="enlaces" >CONTACT</li>
+    </ul>
     </div>
+
+
     <div class="main">
         <img src= "./img/foto.svg">
         <h2>
@@ -28,19 +32,24 @@
 
     </div>
 
-    <div class="portfolio">
-        <h2>PORTFOLIO</h2>
+    <div class="portfolio"> <p id="portfolio">
+         <h2 class="titulo1">PORTFOLIO</h2></p>
+         <div>
+             
         <img src= "./img/cabin.png">
-        <img src= "./img/cake.png">
-        <img src= "./img/circus.png"> <span> <br>
+       <img src= "./img/cake.png">
+        <img src= "./img/circus.png"> 
+     </div>
+      
+        <span> <br>
             <img src= "./img/game.png">
             <img src= "./img/safe.png">
             <img src= "./img/submarine.png">
         </span>
     </div>
 
-    <div class="about">
-        <h2>ABOUT</h2>
+    <div class="about"> <p id ="about">
+        <h2>ABOUT</h2> </p>
    
         
            <div class="prim"> Freelancer is a free bootstrap theme created by Start Bootstrap. The download
@@ -49,7 +58,7 @@
                 files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
             </div> 
         
-            <div class="dos"> You can create your own custom avatar for the masthead, change the icon in the dividers, and add your
+            <div class="prim"> You can create your own custom avatar for the masthead, change the icon in the dividers, and add your
                 email
                 address to the contact form to make it fully functional!
            </div>

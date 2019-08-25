@@ -10,19 +10,31 @@ margin: 0;
 height: 75px;
 color: #ffffff;
 
-
+}
+#menu li {
+    padding: 0;
+    display: inline-block;
 
 }
+.enlaces {
+    margin-left: 5%;
+    text-align: right;
+    
+}
+
+a {color: #ffffff;
+    text-decoration-line: none;
+}
+a:hover { color: yellow }
 h1 {
     display: inline-block;
-    margin-right: 50%;
-    margin-left: 40px;
-
+    margin-right: 500px;
 }
-p {
-    display: inline-block;
-    margin-right: 20px;
-    text-align: right;
+
+ul {
+    display: block;
+    margin-bottom: 10px;
+   
 }
 .main { background-color: #1abc9c;
 
@@ -35,21 +47,29 @@ p {
 
 }
 img {
-    height: 35%
+    height: 35%;
+    width: auto;
+  margin: 10px;
 }
+
+
 .portfolio {
     background-color: #ffffff;
     height: 600px;
     padding-bottom: 30px;
-    padding-top: 00px;
+    padding-top: 100px;
 color: #343a40;
 display: block;
 text-align: center;
 text-decoration-line: underline ;
 
+}
 
+.titulo1 { margin-top: 10px;
+    margin-bottom: 50px;
 
 }
+
 .about { height: 500px;
     padding-bottom: 05px;
     padding-top: 50px;
@@ -58,7 +78,6 @@ text-decoration-line: underline ;
     display:block;
     text-align: center; 
     text-decoration-line: underline;
-    
     
 }
 
@@ -70,16 +89,9 @@ text-decoration-line: underline ;
 width: 200px;
 margin-top: 15px;
 margin-left: 15px;
-
+padding-left: 10px;
+padding-right: 10px;
 
 
 }
-.dos {display: inline-block;
-    text-align: left;
-    text-decoration: none;
-    background-color: #1abc9c ;
-    color: #ffffff;
-width: 200px;
-margin-right: 20px;
 
-}
